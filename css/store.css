@@ -50,6 +50,7 @@
   text-align: center;
   line-height: 18px;
   color: #fff;
+  margin-left: 6px;
 
 }
 h3{
@@ -60,13 +61,14 @@ h3{
   align-items: center;
   justify-content: space-between;
 }
+
 h3 button{
   width: 30px;
   height: 30px;
   background: url(../images/store/moreCircle.png) no-repeat;
   background-size: cover;
   border: none;
-  transform: translateY(4px);
+
 }
 .pakages_wrap{
   padding: 150px 0 ;
@@ -251,7 +253,7 @@ h3 button{
 }
 .info_wrap .gift_wrap{
 
-  width: calc(100% - 380px);
+  width: calc(100% - 400px);
   position: relative;
 }
 .info_wrap .gift_wrap::after{
@@ -266,7 +268,8 @@ h3 button{
   transform: translateY(-50%);
 }
 .info_wrap .center_wrap{
-width: 380px;
+width: 400px;
+padding-left: 60px;
 }
 .info_wrap > div{
   padding: 0 30px;
@@ -287,6 +290,9 @@ width: 380px;
   background-size: cover;
 
 }
+.info_wrap .gift_wrap a:hover b::after{
+  transform: translateX(5px);
+}
 .info_wrap .gift_wrap b{
   font-size: 22px;
 
@@ -298,7 +304,9 @@ width: 380px;
   height: 16px;
   background: url(../images/store/arrow_bk.png) no-repeat;
   background-size: cover;
-  margin-left: 10px;
+  margin-left: 4px;
+  transition: .3s ease-out;
+
 }
 .info_wrap .gift_wrap span{
   display: block;
