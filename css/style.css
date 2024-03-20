@@ -309,7 +309,7 @@ a {
   float: right;
   /* border: 1px solid #000; */
   width: 160px;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   height: 100%;
 }
 .main_section
