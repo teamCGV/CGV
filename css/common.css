@@ -21,3 +21,30 @@ input {
 * {
   box-sizing: border-box;
 }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.center {
+  /* 박스를 가운데로 보내는 것. */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.en {
+  font-family: "Exo 2", sans-serif;
+}
+
+/* 모바일에서는 줄바꿈 해제 */
+br.mo {
+  display: none;
+}
