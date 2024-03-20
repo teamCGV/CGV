@@ -290,7 +290,7 @@ a {
 .main_section .section_main .last_section_container {
   width: 980px;
   margin: 0 auto;
-  height: 1122px;
+  /* height: 1122px; */
   margin-top: 30px;
   margin-bottom: 15px;
   /* background: gray; */
@@ -309,6 +309,8 @@ a {
   float: right;
   /* border: 1px solid #000; */
   width: 160px;
+  border: 1px solid #000;
+  height: 100%;
 }
 .main_section
   .section_main
@@ -820,5 +822,5 @@ em {
   font-size: 12px;
   margin-top: 10px;
   padding-left: 30px;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
 }
