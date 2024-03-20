@@ -300,6 +300,7 @@ a {
   /* border: 1px solid #000; */
   width: 800px;
   margin: 0 auto;
+  /* border-bottom: 1px solid #000; */
 
   /* border: 1px solid #000; */
   /* background: blue; */
@@ -574,6 +575,7 @@ em {
   padding-left: 26px;
   float: left;
   width: 900px;
+
   /* height: auto; */
   /* border: 1px solid #000; */
 }
@@ -593,6 +595,7 @@ em {
   margin-right: 5px;
   /* border: 1px solid blue; */
   float: left;
+  position: relative;
   /* width: 80px; */
   /* display: inline; */
 }
@@ -693,6 +696,20 @@ em {
   .movie-time
   .hall-info
   > ul
+  > li:not(:last-child) {
+  border-right: 1px solid #000;
+}
+.main_section
+  .section_main
+  .last_section_container
+  .times-wrap
+  .sect-showtime
+  > ul
+  > li
+  .col-time
+  .movie-time
+  .hall-info
+  > ul
   > li {
   float: left;
   /* display: block; */
@@ -765,4 +782,43 @@ em {
 
 .set_sellout {
   color: gray;
+}
+.age15 {
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  background: url(../images/12.svg) center / contain scroll no-repeat;
+  border-radius: 2px;
+  background-size: 20px 20px;
+  position: absolute;
+  left: -25px;
+  top: 0px;
+}
+.age17 {
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  background: url(../images/15.svg) center / contain scroll no-repeat;
+  border-radius: 2px;
+  background-size: 20px 20px;
+  position: absolute;
+  left: -25px;
+  top: 0px;
+}
+.age18 {
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  background: url(../images/18.svg) center / contain scroll no-repeat;
+  border-radius: 2px;
+  background-size: 20px 20px;
+  position: absolute;
+  left: -25px;
+  top: 0px;
+}
+#footer_text {
+  font-size: 12px;
+  margin-top: 10px;
+  padding-left: 30px;
+  margin-bottom: 70px;
 }
