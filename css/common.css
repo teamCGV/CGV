@@ -1,17 +1,23 @@
-@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
-body,html{
+body,
+html {
   width: 100%;
 }
 
-body{
-  font-family: 'Noto Sans KR', sans-serif;
+body {
+  font-family: "Noto Sans KR", sans-serif;
   color: #000;
 }
 
-a,button,input{
+a,
+button,
+input {
   font-size: inherit;
   color: inherit;
   cursor: pointer;
+}
+* {
+  box-sizing: border-box;
 }
