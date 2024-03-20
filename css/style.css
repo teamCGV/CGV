@@ -573,7 +573,7 @@ em {
   margin-left: 14px;
   padding-left: 26px;
   float: left;
-  width: 400px;
+  width: 900px;
   /* height: auto; */
   /* border: 1px solid #000; */
 }
@@ -754,4 +754,15 @@ em {
   text-align: center;
   font-size: 16px;
   /* padding-left: 5px; */
+}
+.hide {
+  opacity: 0;
+}
+
+.set_color {
+  color: #3e82a4;
+}
+
+.set_sellout {
+  color: gray;
 }
