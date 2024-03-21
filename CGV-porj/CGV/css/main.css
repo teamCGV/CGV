@@ -1,0 +1,235 @@
+/* 아래는 font awesome 입니다. */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
+
+/* body 레이아웃 조절. */
+
+/* body {
+  width: 52%;
+  margin: 0 auto;
+  
+} */
+section.main-box .contents {
+  height: 100%;
+  width: 262.25px;
+}
+section.main-box .contents2 {
+  height: 100%;
+  width: 262.25px;
+}
+section.main-box .contents2 .headtxt2 {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+section.main-box .contents2 .headtxt2 button {
+  width: 33%;
+}
+section.main-box {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* 상단 메뉴바. */
+
+.navi .top {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  /* border: 2px solid greenyellow; */
+  padding: 30px 0px 15px 0px;
+}
+
+.navi .top .top-menu {
+  color: #333333;
+  margin-left: 5px;
+}
+
+.navi .top .top-menu .btn {
+  background: #f2f0e5;
+  font-size: 12px;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+.navi .top .top-menu .btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 25px;
+  font-weight: bolder;
+  color: #333333;
+}
+
+/* 패딩 어케 넣냐 진짜 화나네 */
+/* 영화 극장 날짜 시간 */
+
+.search .el {
+  background-color: #333333;
+  /* height: 25px;
+  bottom: 25px; */
+}
+
+.search .el {
+  color: #f2f0e5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search .el .movie {
+  border: 2px solid #f2f0e5;
+  border-style: none solid;
+  flex: 1;
+}
+.search .el .theater {
+  border: 2px solid #f2f0e5;
+  border-style: none solid;
+  flex: 1;
+}
+.search .el .date {
+  border: 2px solid #f2f0e5;
+  border-style: none solid;
+  flex: 1;
+}
+.search .el .time {
+  border: 2px solid #f2f0e5;
+  border-style: none solid;
+  flex: 1;
+}
+
+/* 맨위 까만색 부분 */
+
+/* section.main-box .header tr.el2 {
+  display: flex;
+}
+section.main-box .header {
+  width: 374%;
+}
+section.main-box .header tr.el2 td {
+  color: #f2f0e5;
+  background: #333333;
+
+  text-align: center;
+  padding: 9px;
+  border: 1px solid #f2f0e5;
+}
+
+section.main-box .header tr.el2 td:nth-child(1) {
+  flex-grow: 3;
+}
+section.main-box .header tr.el2 td:nth-child(2) {
+  flex-grow: 3;
+}
+section.main-box .header tr.el2 td:nth-child(3) {
+  flex-grow: 1;
+}
+section.main-box .header tr.el2 td:nth-child(4) {
+  flex-grow: 4;
+} */
+/* 맨위 까만거 끗 */
+/* 영화칸 */
+section {
+  background: #f2f0e5;
+}
+section #color {
+  background: #ffffff;
+}
+section.main-box .headtxt {
+  color: skyblue;
+}
+section.main-box .headtxt button {
+  border-radius: 0;
+}
+
+section.main-box .contents {
+  /* background: red; */
+  width: 262px;
+  /* 여기 옆에다가 장소선택 칸 넣어야함. */
+}
+
+section.main-box .select-movie {
+  background: blue;
+  display: flex;
+  flex-direction: column;
+  /* width: 262px; */
+}
+section.main-box .select-movie .butn {
+  background-color: #f2f0e5;
+  text-align: left;
+}
+
+/* 영화칸 끗 */
+
+/* 극장칸 */
+section.main-box .contents2 {
+  width: 262px;
+}
+
+section.main-box .place .butn2 {
+  background: #e6e4d9;
+}
+section.main-box .place .butn3 {
+  background: #f2f0e5;
+}
+#seoul {
+  background: #f2f0e5;
+}
+section.main-box .contents {
+  /* background: teal; */
+}
+section.main-box .place {
+  /* color: orange; */
+  display: flex;
+  flex-direction: column;
+}
+section.main-box .sub-place {
+  /* color: violet */
+  
+  display: flex;
+  flex-direction: column;
+}
+section.main-box .headtxt2 button {
+  height: 30px;
+  width: 87px;
+  font-size: 14px;
+}
+section.main-box .contents2 {
+}
+section.main-box .contents {
+  /* 왼쪽칸임 */
+  position: relative;
+  
+}
+
+
+section.main-box .contents .index1 {
+  color: red;
+}
+
+/* 극장칸 끗 */
+/* footer */
+.container {
+  background: url("../images/final.png") no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.img-box2 {
+  position: absolute;
+  right: 0;
+  top: 7%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+.index2 {
+  margin-left: 20px;
+  margin-top: 9px;
+  background: red;
+}
