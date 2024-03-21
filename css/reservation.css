@@ -329,7 +329,7 @@ section.last .container .text > ul > li{
   /* text-align: center; */
 }
 section.last .container .text > ul > li:not(:nth-child(4)) {
-  border-right: 1px solid gray;
+  border-right: 1px solid grey;
 }
 section.last .container .text > ul > li > a{
   padding: 20px 0;
