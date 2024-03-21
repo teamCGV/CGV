@@ -14,11 +14,17 @@
   margin-bottom: 10px;
   /* border: 2px solid greenyellow; */
   padding: 30px 0px 15px 0px;
+  
 }
 
 .navi .top .top-menu {
   color: #333333;
   margin-left: 5px;
+  /* width: 980px; */
+  /* margin: 0 auto; */
+  /* display: flex; */
+  background: #f2f0e5;
+  /* height: 565px; */
 }
 
 .navi .top .top-menu .btn {
@@ -99,6 +105,18 @@ a {
 section.main-box .headtxt a {
   border-right: 1px solid #333333;
   padding: 0px 10px;
+  display: block;
+  height: 30px;
+  line-height: 28px;
+  width: 100px;
+  white-space: nowrap;
+  text-align: center;
+}
+section.main-box .headtxt a:first-child{
+  width: calc(100% -200px);
+}
+section.main-box .headtxt a:last-child{
+  border-right: none;
 }
 /* border로 인한 패딩조절. 궁금하면 주석  */
 
@@ -108,17 +126,15 @@ section.main-box .headtxt a {
 
 section.main-box .index2 {
   position: relative;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   border: 1px solid #000;
   
   height: 500px;
 }
 section.main-box .headtxt {
-  position: absolute;
-  border: 1px solid #333333;
-  padding: 4px 2px;
-  top: 0%;
+  border-bottom: 1px solid #333333;
   width: 225px;
+  display: flex;
 }
 /* border로 인한 패딩조절. 궁금하면 주석  */
 
@@ -135,19 +151,26 @@ section.main-box .subtext {
   /* border: 1px solid #000; */
   top: 30px;
   margin-top: 8px;
+  font-size: 14px;
 }
 section.main-box .subtext .ml1 {
   margin-right: 10px;
+  padding: 10px;
 }
 section.main-box .select-movie {
   position: absolute;
-  border: 1px solid #000;
+  border-top: 1px solid #000;
   top: 80px;
   display: flex;
   flex-direction: column;
   
   height: 565px;
   width: 225px;
+  height: 419px;
+  overflow-y: scroll;
+}
+section.main-box .select-movie::-webkit-scrollbar{
+  display: none;
 }
 section.main-box .select-movie a {
   padding: 10px 0px 10px 10px;
@@ -176,49 +199,53 @@ section.main-box .headtxt2 a {
 
 section.main-box .index3 {
   position: relative;
+  height: calc(100% - 30px);
 }
-section.main-box .headtxt2 {
-  position: absolute;
-  border: 1px solid #333333;
-  padding: 4px 2px;
-  top: 100%;
-  width: 225px;
+section.main-box  .contents2 .headtxt {
+border: solid 1px #000;
+}
+section.main-box .contents2 .all-place{
+height: calc(100% - 60px);
+padding: 20px 0 0;
+display: flex;
 }
 section.main-box .contents2 .fsc {
-  position: relative;
-  padding: 20px;
-  overflow: scroll;
-  height: 480px;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  padding: 0 20px;
 }
 section.main-box .contents2 .place {
-  position: absolute;
   display: flex;
   flex-direction: column;
   text-align: right;
   left: 0px;
   font-size: 12px;
+  width: 100px;
 }
 section.main-box .contents2 .place #seoul {
   background: #f2f0e5;
 }
 section.main-box .contents2 .place a {
   background: #e6e4d9;
-  height: 24px;
+  line-height: 24px;
   border: 1px solid #f2f0e5;
+  white-space: nowrap;
+
 }
 
 
 section.main-box .contents2 .sub-place {
-  position: absolute;
   display: flex;
   flex-direction: column;
   text-align: left;
-  right: 0px;
-  
+  height: 100%;
+  overflow-y: scroll;
 }
 section.main-box .contents2 .sub-place .butn3 {
-  height: 24px;
+  /* height: 24px; */
   font-weight: bolder;
+  margin-bottom: 20px;
 }
 /* 둘째칸 끗 */
 /* 셋째칸 */
@@ -229,6 +256,7 @@ section.main-box .contents3 {
 }
 section.main-box .contents3 .index4 {
   overflow-y: scroll;
+  height: 522px;
 }
 section.main-box .contents3 .index4 a {
   display: flex;
@@ -254,3 +282,80 @@ section.main-box .contents4 .inf {
   font-size: 12px;
 }
 /* 넷째칸 끗 */
+
+/* last */
+section.last .container {
+  height: 128px;
+  background: #000;
+}
+section.last .container .item {
+  width: 980px;
+  /* margin: 0 auto; */
+  /* background: red; */
+  /* position: relative; */
+  margin-left: 227px;
+  height: 128px;
+  /* line-height: 128px; */
+  /* border: 1px solid #000; */
+}
+
+
+section.last .container .text {
+  color: grey;
+  font-size: 30px;
+  border: 1px solid #000;
+  /* position: relative; */
+  height: 128px;
+}
+section.last .container .text > ul > li{
+  /* float: left; */
+  /* border: 1px solid yellow; */
+  flex: 7;
+  /* width: 130px;
+  height: 107px; */
+  display: block;
+  margin: 20px;
+  margin-left: 0px;
+  
+  /* padding: 20px 0; */
+  /* z-index: 9099; */
+  /* text-align: center; */
+}
+section.last .container .text > ul > li:not(:nth-child(4)) {
+  border-right: 1px solid gray;
+}
+section.last .container .text > ul > li > a{
+  padding: 20px 0;
+  text-align: center;
+  line-height: 80px;
+}
+section.last .container .text > ul {
+  display: flex;
+  height: 128px;
+  position: relative  ;
+}
+section.last .container .text > ul > li:nth-child(1) {
+  /* border: 1px solid yellow; */
+  width: 180px;
+}
+section.last .container .text > ul > a{
+  /* border: 1px solid blue; */
+  height: 100px;
+  margin-left: 150px;
+  margin-top: 10px;
+  /* margin-right: 100px; */
+  /* padding-top: 43px; */
+}
+section.last .container .text > ul > li:nth-child(2){
+width: 180px;
+}
+section.last .container .text > ul > li:nth-child(3) {
+width: 180px;
+}
+section.last .container .text > ul > li:nth-child(4) {
+  width: 100px;
+}
+ 
+
+/* last 끗 */
+

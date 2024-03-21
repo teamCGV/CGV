@@ -15,8 +15,7 @@ a,button,input{
   font-size: inherit;
   color: inherit;
   cursor: pointer;
-<<<<<<< HEAD
-=======
+
 }
 
 /* header-------------------- */
@@ -164,5 +163,10 @@ footer .info .choose button{
  background-color: #7c7c7c;
  color:#fff;
  border: none;
->>>>>>> origin
+
+}
+
+
+*::-webkit-scrollbar{
+  display: none;
 }
