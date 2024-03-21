@@ -357,6 +357,19 @@ a {
   padding: 10px 5px;
   font-size: 12px;
   position: relative;
+  /* margin: 1px; */
+}
+.main_section
+  .section_main
+  .last_section_container
+  .times-wrap
+  .sect-schedule
+  .slider
+  .item-wraps
+  .item
+  li:hover {
+  border: 1px solid #000;
+  border-radius: 10px;
 }
 .main_section
   .section_main
@@ -399,6 +412,7 @@ em {
   float: left;
   /* border: 1px solid #000; */
   width: 30px;
+  cursor: pointer;
 }
 
 .main_section
@@ -427,6 +441,7 @@ em {
   > strong {
   position: relative;
   bottom: 5px;
+  cursor: pointer;
 }
 .main_section
   .section_main
@@ -686,6 +701,29 @@ em {
   .hall-info
   > ul {
   width: 800px;
+  position: relative;
+  left: -17px;
+}
+.main_section
+  .section_main
+  .last_section_container
+  .times-wrap
+  .sect-showtime
+  > ul
+  > li
+  .col-time
+  .movie-time
+  .hall-info
+  > ul
+  .arrow {
+  background: url(https://img.cgv.co.kr/r2014/images/common/ico/ico_arrow03.png)
+    no-repeat 2px 50%;
+  width: 15px;
+  height: 15px;
+  display: inline;
+  position: absolute;
+  /* border: 1px solid #000; */
+  top: -1px;
 }
 .main_section
   .section_main
@@ -754,6 +792,7 @@ em {
   display: flex;
   flex-direction: column;
   padding-bottom: 5px;
+  cursor: pointer;
 
   /* padding: 30px; */
 }
