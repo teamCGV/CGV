@@ -9,7 +9,8 @@ a {
   height: 460px;
   margin: 0 auto;
   padding: 60px 53px 0;
-  background: url(../images/bg_showtimes_favorite.gif) no-repeat center/cover;
+  background: url(../images//sanghun/bg_showtimes_favorite.gif) no-repeat
+    center/cover;
 }
 .favorite_container .favorite {
   /* border: 1px solid yellow; */
@@ -225,7 +226,8 @@ a {
   height: 17px;
   margin: 3px 2px;
   padding: 0;
-  background: url(../images/sprite_screentype02.png) -99px -162px no-repeat;
+  background: url(../images/sanghun/sprite_screentype02.png) -99px -162px
+    no-repeat;
   vertical-align: top;
   color: rgba(0, 0, 0, 0);
   position: absolute;
@@ -243,7 +245,7 @@ a {
 .main_section .section_main .content-box .second-content > a {
   display: inline-block;
   width: 20px;
-  background: url(../images/sprite_btn.png) -50px -62px no-repeat;
+  background: url(../images/sanghun/sprite_btn.png) -50px -62px no-repeat;
   height: 19px;
   vertical-align: middle;
   position: absolute;
@@ -828,7 +830,7 @@ em {
   overflow: hidden;
   width: 20px;
   height: 20px;
-  background: url(../images/12.svg) center / contain scroll no-repeat;
+  background: url(../images/sanghun/12.svg) center / contain scroll no-repeat;
   border-radius: 2px;
   background-size: 20px 20px;
   position: absolute;
@@ -839,7 +841,7 @@ em {
   overflow: hidden;
   width: 20px;
   height: 20px;
-  background: url(../images/15.svg) center / contain scroll no-repeat;
+  background: url(../images/sanghun/15.svg) center / contain scroll no-repeat;
   border-radius: 2px;
   background-size: 20px 20px;
   position: absolute;
@@ -850,7 +852,7 @@ em {
   overflow: hidden;
   width: 20px;
   height: 20px;
-  background: url(../images/18.svg) center / contain scroll no-repeat;
+  background: url(..///images/sanghun/18.svg) center / contain scroll no-repeat;
   border-radius: 2px;
   background-size: 20px 20px;
   position: absolute;
