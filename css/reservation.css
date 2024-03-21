@@ -184,9 +184,11 @@ section.main-box .headtxt2 {
   top: 100%;
   width: 225px;
 }
-section.main-box .contents2 .all-place {
+section.main-box .contents2 .fsc {
   position: relative;
   padding: 20px;
+  overflow: scroll;
+  height: 480px;
 }
 section.main-box .contents2 .place {
   position: absolute;
@@ -194,13 +196,29 @@ section.main-box .contents2 .place {
   flex-direction: column;
   text-align: right;
   left: 0px;
+  font-size: 12px;
 }
+section.main-box .contents2 .place #seoul {
+  background: #f2f0e5;
+}
+section.main-box .contents2 .place a {
+  background: #e6e4d9;
+  height: 24px;
+  border: 1px solid #f2f0e5;
+}
+
+
 section.main-box .contents2 .sub-place {
   position: absolute;
   display: flex;
   flex-direction: column;
   text-align: left;
   right: 0px;
+  
+}
+section.main-box .contents2 .sub-place .butn3 {
+  height: 24px;
+  font-weight: bolder;
 }
 /* 둘째칸 끗 */
 /* 셋째칸 */
@@ -210,7 +228,7 @@ section.main-box .contents3 {
   overflow: hidden;
 }
 section.main-box .contents3 .index4 {
-  overflow: scroll;
+  overflow-y: scroll;
 }
 section.main-box .contents3 .index4 a {
   display: flex;
