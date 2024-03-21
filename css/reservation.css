@@ -6,6 +6,13 @@
 * {
   box-sizing: border-box;
 }
+.navi {
+  /* border: 1px solid #000; */
+  width: 980px;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column; */
+}
 
 .navi .top {
   display: flex;
@@ -14,7 +21,7 @@
   margin-bottom: 10px;
   /* border: 2px solid greenyellow; */
   padding: 30px 0px 15px 0px;
-  width: 1210px;
+  
 }
 
 .navi .top .top-menu {
@@ -285,6 +292,7 @@ section.main-box .contents4 .inf {
 /* last */
 section.last .container {
   height: 128px;
+  width: 1980px;
   background: #000;
 }
 section.last .container .item {
@@ -292,7 +300,7 @@ section.last .container .item {
   /* margin: 0 auto; */
   /* background: red; */
   /* position: relative; */
-  margin-left: 227px;
+  margin-left: 472px;
   height: 128px;
   /* line-height: 128px; */
   /* border: 1px solid #000; */
