@@ -2,6 +2,10 @@
   text-decoration: none;
 }
 
+body{
+  width: 980px;
+
+}
 .main_movie{
   height:350px;
   background-color: black;
