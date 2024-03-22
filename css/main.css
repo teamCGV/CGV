@@ -340,17 +340,23 @@
 .package_container .package_contents .box img{
   width:23%;
   height: 23%;
-  padding:20px 25px;
+  position: relative;
+  left:30px;
+  /* padding:20px 25px; */
 }
 .package_container .package_contents .box .package_right{
   padding:20px 0;
 }
 .package_container .package_contents .box .package_right .name{
-  padding:20px 0 5px 0;
+  position: relative;
+  left:50px;
   font-size: 13px;
   font-weight: 600;
 }
 .package_container .package_contents .box .package_right .price{
+  position: relative;
+  left:50px;
+  top:5px;
   font-size: 16px;
   font-weight: 700;
 }
