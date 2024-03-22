@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="../css/common.css" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="css/main.css" /> -->
+  <link rel="stylesheet" href="../css/reservation.css" />
+</head>
+
+<body>
+  <!-- ============================= header ============================= -->
+  <header>
+    <div class="main_top">
+      <div class="logo">
+        <a href="../main.html">
+        <img src="../images/main/logo.JPG">
+      </a>
+      </div>
+      <div class="member_info">
+        <div class="m_icon login">
+          <img src="../images/main/loginPassword.png">
+          <div>로그인</div>
+        </div>
+        <div class="m_icon join">
+          <img src="../images/main/loginJoin.png">
+          <div>회원가입</div>
+        </div>
+        <div class="m_icon mycgv">
+          <img src="../images/main/loginMember.png">
+          <div>MY CGV</div>
+        </div>
+        <div class="m_icon serviceCenter">
+          <img src="../images/main/loginCustomer.png">
+          <div>고객센터</div>
+        </div>
+      </div>
+    </div>
+
+      <div class="nav">
+        <div class="nav_menu">
+          <a class="menu">영화</a>
+          <a href="../html/cgvhun.html" class="menu">극장</a>
+          <a href="../html/reservation.html" class="menu">예매</a>
+          <a href="../html/store.html" class="menu">스토어</a>
+          <a class="menu">이벤트</a>
+          <a class="menu">혜택</a>
+        </div>
+        <div class="search">
+          <input type="text" name="q" placeholder="듄-파트2">
+          <img src="../images/main/search.png">
+        </div>
+    </div>
+  </header>
+  <!-- 상단 메뉴바. -->
+  <section id="color">
+    <nav class="navi">
+      <ul class="top">
+        <li class="top-menu">
+          <button class="btn">ENGLISH</button>
+        </li>
+        <li class="top-menu">
+          <button class="btn"><i class="fas fa-clock"></i>상영시간표</button>
+        </li>
+        <li class="top-menu">
+          <button class="btn">
+            <i class="fas fa-undo-alt"></i>예매 다시하기
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <!-- //상단 메뉴바. -->
+
+  <!-- 영화 극장 날짜 시간 -->
+  <section class="main-box">
+    <div class="contents">
+      <!-- <table class="header">
+        <tr class="el2">
+          <td>영화</td>
+          <td>극장</td>
+          <td>날짜</td>
+          <td>시간</td>
+        </tr>
+      </table> -->
+      <div class="index1">영화</div>
+      <div class="index2">
+        <div class="headtxt">
+          <a href="#" class="top-butn">전체</a>
+          <a href="#" class="top-butn">아트하우스</a>
+          <a href="#" class="top-butn">특별관</a>
+        </div>
+        <div class="subtext">
+          <span class="ml1">예매율순</span>
+          <span class="ml2">가나다순</span>
+        </div>
+        <div class="scr0">
+          <div class="select-movie">
+            <a href="#" class="butn"><i class="fas fa-user-alt"></i>듄-파트 2</a>
+            <a href="#" class="butn"><i class="fas fa-user-alt"></i>파묘</a>
+            <a href="#" class="butn"><i class="fas fa-globe"></i>동백정원</a>
+            <a href="#" class="butn"><i class="fas fa-user-alt"></i>댓글부대</a>
+            <a href="#" class="butn"><i class="fas fa-child"></i>탐정말로</a>
+            <a href="#" class="butn"><i class="fas fa-child"></i>왓츠러브</a>
+            <a href="#" class="butn">
+              <i class="fas fa-child"></i>기동전사건담
+            </a>
+            <a href="#" class="butn">
+              <i class="fas fa-user-alt"></i>악은없다
+            </a>
+            <a href="#" class="butn">
+              <i class="fas fa-user-alt"></i>패스트라이브즈
+            </a>
+            <a href="#" class="butn"><i class="fas fa-globe"></i>밥말리-원러브</a>
+            <a href="#" class="butn"><i class="fas fa-child"></i>로봇드림</a>
+            <a href="#" class="butn"><i class="fas fa-globe"></i>윙카</a>
+            <a href="#" class="butn">
+              <i class="fas fa-user-alt"></i>에픽하이20
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 영화 -->
+    <div class="contents2">
+      <div class="index1">극장</div>
+      <div class="index3">
+        <div class="headtxt">
+          <a href="#" class="top-butn">전체</a>
+          <a href="#" class="top-butn">아트하우스</a>
+          <a href="#" class="top-butn">특별관</a>
+        </div>
+        <div class="all-place">
+          <div class="place">
+            <a href="#" id="seoul" class="butn2">서울(31)</a>
+            <a href="#" id="gygi" class="butn2 butn2-1">경기(59)</a>
+            <a href="#" class="butn2 butn2-1">인천(12)</a>
+            <a href="#" class="butn2 butn2-1">강원(5)</a>
+            <a href="#" class="butn2 butn2-1">대전/충청(22)</a>
+            <a href="#" class="butn2 butn2-1">대구(9)</a>
+            <a href="#" class="butn2 butn2-1">부산/울산(18)</a>
+            <a href="#" class="butn2 butn2-1">경상(16)</a>
+            <a href="#" class="butn2 butn2-1">광주/전라/제주(23)</a>
+          </div>
+          <div class="fsc">
+            <div class="sub-place">
+              <a href="#" class="butn3">강남</a>
+              <a href="#" class="butn3">강변</a>
+              <a href="#" class="butn3">건대입구</a>
+              <a href="#" class="butn3">구로</a>
+              <a href="#" class="butn3">대학로</a>
+              <a href="#" class="butn3">동대문</a>
+              <a href="#" class="butn3">등촌</a>
+              <a href="#" class="butn3">명동</a>
+              <a href="#" class="butn3">미아</a>
+              <a href="#" class="butn3">방학</a>
+              <a href="#" class="butn3">불광</a>
+              <a href="#" class="butn3">상봉</a>
+              <a href="#" class="butn3">성신여대입구</a>
+              <a href="#" class="butn3">숭파</a>
+              <a href="#" class="butn3">수유</a>
+              <a href="#" class="butn3">신촌</a>
+              <a href="#" class="butn3">압구정</a>
+              <a href="#" class="butn3">여의도</a>
+              <a href="#" class="butn3">연남</a>
+              <a href="#" class="butn3">영등포</a>
+              <a href="#" class="butn3">왕십리</a>
+              <a href="#" class="butn3">용산</a>
+              <a href="#" class="butn3">중계</a>
+              <a href="#" class="butn3">천호</a>
+              <a href="#" class="butn3">청담</a>
+              <a href="#" class="butn3">하계</a>
+              <a href="#" class="butn3">홍대</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contents3">
+      <div class="index1">날짜</div>
+      <div class="index4">
+
+        <img src="../images/2024.4pic.png" alt="" />
+        <!-- <a href="#" class="butn4">월 1</a>
+            <a href="#" class="butn4">화 2</a>
+            <a href="#" class="butn4">수 3</a>
+            <a href="#" class="butn4">목 4</a>
+            <a href="#" class="butn4">금 5</a>
+            <a href="#" class="butn4">토 6</a>
+            <a href="#" class="butn4">일 7</a>
+            <a href="#" class="butn4">월 8</a>
+            <a href="#" class="butn4">화 9</a>
+            <a href="#" class="butn4">수 10</a>
+            <a href="#" class="butn4">목 11</a> -->
+        <a href="#" class="butn4">금 12</a>
+        <a href="#" class="butn4">토 13</a>
+        <a href="#" class="butn4">일 14</a>
+        <a href="#" class="butn4">월 15</a>
+        <a href="#" class="butn4">화 16</a>
+        <a href="#" class="butn4">수 17</a>
+        <a href="#" class="butn4">목 18</a>
+        <a href="#" class="butn4">금 19</a>
+        <a href="#" class="butn4">토 20</a>
+        <a href="#" class="butn4">일 21</a>
+        <a href="#" class="butn4">월 22</a>
+        <a href="#" class="butn4">화 23</a>
+        <a href="#" class="butn4">수 24</a>
+        <a href="#" class="butn4">목 25</a>
+        <a href="#" class="butn4">금 26</a>
+        <a href="#" class="butn4">토 27</a>
+        <a href="#" class="butn4">일 28</a>
+        <a href="#" class="butn4">월 29</a>
+        <a href="#" class="butn4">화 30</a>
+      </div>
+    </div>
+    </div>
+    <div class="contents4">
+      <div class="index1">시간</div>
+      <div class="index5">
+        <span><i class="fas fa-sun"></i>모닝</span>
+        <span><i class="fas fa-moon"></i>심야</span>
+        <hr />
+        <div class="inf">영화, 극장, 날짜를 선택해주세요.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- //영화 극장 날짜 시간 -->
+
+
+  <section class="last">
+    <div class="container">
+      <div class="item">
+        <div class="text clearfix">
+          <ul class="clearfix">
+            <li><a href="">영화</a></li>
+            <li><a href="">극장선택</a></li>
+            <li><a href="">좌석선택</a></li>
+            <li><a href="">결제</a></li>
+            <a href="#" class="img-box2">
+              <img src="../images/choice-chair.png" alt="" />
+            </a>
+          </ul>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div class="search">
+      <div class="el">
+        <div class="movie">영화</div>
+        <div class="theater">극장</div>
+        <div class="date">날짜</div>
+        <div class="time">시간</div>
+      </div>
+    </div> -->
+  <!-- ============================= footer ============================= -->
+
+    <footer>
+      <div class="police_list">
+        <a>회사소개</a>
+        <a>지속가능경영</a>
+        <a>IR</a>
+        <a>채용정보</a>
+        <a>광고/제휴/출점문의</a>
+        <a>이용약관</a>
+        <a>편성기준</a>
+        <a>개인정보처리방침</a>
+        <a>법적고지</a>
+        <a>이메일주소무단수집거부</a>
+        <a>윤리경영</a>
+        <a>사이버감사실</a>
+      </div>
+      <div class="info">
+        <p>
+          (04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)<br>
+  대표이사 : 허민회  사업자등록번호 : 104-81-45690  통신판매업신고번호 : 2017-서울용산-0662 <span>사업자정보확인</span> <br>
+  호스팅사업자 : CJ올리브네트웍스  개인정보보호 책임자 : 도형구  대표이메일 : cjcgvmaster@cj.net <br>
+  © CJ CGV. All Rights Reserved
+        </p>
+        <div class="choose">
+          <select>
+            <option value="">계열사 바로가기</option>
+            <option value="">CJ 주식회사</option>
+            <option value="">CJ 제일제당</option>
+            <option value="">CJ 푸드빌</option>
+            <option value="">CJ 프레시웨이</option>
+          </select>
+          <button>GO</button>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>

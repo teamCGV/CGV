@@ -1,0 +1,368 @@
+/* 아래는 font awesome 입니다. */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
+
+/* 상단 메뉴바. */
+
+* {
+  box-sizing: border-box;
+}
+.navi {
+  /* border: 1px solid #000; */
+  width: 980px;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.navi .top {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  /* border: 2px solid greenyellow; */
+  padding: 30px 0px 15px 0px;
+  
+}
+
+.navi .top .top-menu {
+  color: #333333;
+  margin-left: 5px;
+  /* width: 980px; */
+  /* margin: 0 auto; */
+  /* display: flex; */
+  background: #f2f0e5;
+  /* height: 565px; */
+}
+
+.navi .top .top-menu .btn {
+  background: #f2f0e5;
+  font-size: 12px;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+.navi .top .top-menu .btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 25px;
+  font-weight: bolder;
+  color: #333333;
+}
+/* 상단 메뉴바 */
+section.main-box .contents {
+  height: 100%;
+  width: 262.25px;
+  flex: 3;
+  border: 1px solid #333333;
+}
+section.main-box .contents2 {
+  height: 100%;
+  width: 262.25px;
+  flex: 3;
+  border: 1px solid #333333;
+}
+section.main-box .contents3 {
+  flex: 1;
+  border: 1px solid #333333;
+  height: 100%;
+}
+
+section.main-box .contents4 {
+  flex: 4;
+  border: 1px solid #333333;
+  height: 100%;
+}
+section.main-box .contents2 .headtxt2 {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+section.main-box .contents2 .headtxt2 button {
+  width: 33%;
+}
+section.main-box {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  background: #f2f0e5;
+  height: 565px;
+}
+
+section.main-box .index1 {
+  width: 100%;
+  background: #333333;
+  color: #f2f0e5;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+}
+
+.index2 {
+  margin-left: 20px;
+  margin-top: 16px;
+  margin-right: 20px;
+
+  /* background: violet; */
+}
+
+section.main-box .headtxt a {
+  border-right: 1px solid #333333;
+  padding: 0px 10px;
+  display: block;
+  height: 30px;
+  line-height: 28px;
+  width: 100px;
+  white-space: nowrap;
+  text-align: center;
+}
+section.main-box .headtxt a:first-child{
+  width: calc(100% -200px);
+}
+section.main-box .headtxt a:last-child{
+  border-right: none;
+}
+/* border로 인한 패딩조절. 궁금하면 주석  */
+
+.headtxt a:nth-child(3) {
+  border-right: none;
+}
+
+section.main-box .index2 {
+  position: relative;
+  /* overflow-y: scroll; */
+  border: 1px solid #000;
+  
+  height: 500px;
+}
+section.main-box .headtxt {
+  border-bottom: 1px solid #333333;
+  width: 225px;
+  display: flex;
+}
+/* border로 인한 패딩조절. 궁금하면 주석  */
+
+section.main-box .headtxt a:hover {
+  background: grey;
+}
+
+section.main-box .ml2 {
+  color: grey;
+}
+
+section.main-box .subtext {
+  position: absolute;
+  /* border: 1px solid #000; */
+  top: 30px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+section.main-box .subtext .ml1 {
+  margin-right: 10px;
+  padding: 10px;
+}
+section.main-box .select-movie {
+  position: absolute;
+  border-top: 1px solid #000;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  
+  height: 565px;
+  width: 225px;
+  height: 419px;
+  overflow-y: scroll;
+}
+section.main-box .select-movie::-webkit-scrollbar{
+  display: none;
+}
+section.main-box .select-movie a {
+  padding: 10px 0px 10px 10px;
+}
+
+
+/* 둘째칸 */
+
+.index3 {
+  margin-left: 20px;
+  margin-top: 16px;
+  margin-right: 20px;
+
+  /* background: violet; */
+}
+
+section.main-box .headtxt2 a {
+  border-right: 1px solid #333333;
+  padding: 1px 10px;
+}
+/* border로 인한 패딩조절. 궁금하면 주석  */
+
+.headtxt2 a:nth-child(3) {
+  border-right: none;
+}
+
+section.main-box .index3 {
+  position: relative;
+  height: calc(100% - 30px);
+}
+section.main-box  .contents2 .headtxt {
+border: solid 1px #000;
+}
+section.main-box .contents2 .all-place{
+height: calc(100% - 60px);
+padding: 20px 0 0;
+display: flex;
+}
+section.main-box .contents2 .fsc {
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  padding: 0 20px;
+}
+section.main-box .contents2 .place {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  left: 0px;
+  font-size: 12px;
+  width: 100px;
+}
+section.main-box .contents2 .place #seoul {
+  background: #f2f0e5;
+}
+section.main-box .contents2 .place a {
+  background: #e6e4d9;
+  line-height: 24px;
+  border: 1px solid #f2f0e5;
+  white-space: nowrap;
+
+}
+
+
+section.main-box .contents2 .sub-place {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+  overflow-y: scroll;
+}
+section.main-box .contents2 .sub-place .butn3 {
+  /* height: 24px; */
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+/* 둘째칸 끗 */
+/* 셋째칸 */
+
+/* 셋째칸 끗 */
+section.main-box .contents3 {
+  overflow: hidden;
+}
+section.main-box .contents3 .index4 {
+  overflow-y: scroll;
+  height: 522px;
+}
+section.main-box .contents3 .index4 a {
+  display: flex;
+  margin: 18px;
+  text-align: center;
+}
+
+/* 넷째칸 */
+section.main-box .contents4 .index5 {
+  margin-top: 15px;
+}
+section.main-box .contents4 {
+  position: relative;
+}
+
+section.main-box .contents4 .inf {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 27%;
+  color: grey;
+  font-size: 12px;
+}
+/* 넷째칸 끗 */
+
+/* last */
+section.last .container {
+  height: 128px;
+  width: 1980px;
+  background: #000;
+}
+section.last .container .item {
+  width: 980px;
+  /* margin: 0 auto; */
+  /* background: red; */
+  /* position: relative; */
+  margin-left: 472px;
+  height: 128px;
+  /* line-height: 128px; */
+  /* border: 1px solid #000; */
+}
+
+
+section.last .container .text {
+  color: grey;
+  font-size: 30px;
+  border: 1px solid #000;
+  /* position: relative; */
+  height: 128px;
+}
+section.last .container .text > ul > li{
+  /* float: left; */
+  /* border: 1px solid yellow; */
+  flex: 7;
+  /* width: 130px;
+  height: 107px; */
+  display: block;
+  margin: 20px;
+  margin-left: 0px;
+  
+  /* padding: 20px 0; */
+  /* z-index: 9099; */
+  /* text-align: center; */
+}
+section.last .container .text > ul > li:not(:nth-child(4)) {
+  border-right: 1px solid grey;
+}
+section.last .container .text > ul > li > a{
+  padding: 20px 0;
+  text-align: center;
+  line-height: 80px;
+}
+section.last .container .text > ul {
+  display: flex;
+  height: 128px;
+  position: relative  ;
+}
+section.last .container .text > ul > li:nth-child(1) {
+  /* border: 1px solid yellow; */
+  width: 180px;
+}
+section.last .container .text > ul > a{
+  /* border: 1px solid blue; */
+  height: 100px;
+  margin-left: 150px;
+  margin-top: 10px;
+  /* margin-right: 100px; */
+  /* padding-top: 43px; */
+}
+section.last .container .text > ul > li:nth-child(2){
+width: 180px;
+}
+section.last .container .text > ul > li:nth-child(3) {
+width: 180px;
+}
+section.last .container .text > ul > li:nth-child(4) {
+  width: 100px;
+}
+ 
+
+/* last 끗 */
+
