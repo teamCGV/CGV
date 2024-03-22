@@ -87,29 +87,34 @@ input {
   width: 50%;
   /* background-color: antiquewhite; */
 }
-.logo img {
-  width: 50%;
-  padding: 40px 35px;
+.logo img{
+  position: relative;
+  top:40px;
 }
-.member_info {
-  float: right;
-  width: 40%;
-  padding: 30px;
+.member_info{
+  float:right;
+  width:30%;
+  padding:30px;
   /* background-color: rgb(194, 172, 143); */
   display: flex;
+  position: relative;
+  justify-content: space-between;
 }
-.member_info .m_icon {
-  width: 40%;
+.member_info .m_icon{
+  /* position: absolute; */
+  flex-wrap:nowrap;
+  text-align: center;
+  
   /* background-color: lightblue; */
-  padding: 10px 20px;
+  
 }
 
 .member_info .m_icon img{
   /* width:50%; */
   width:40px;
   align-items: center;
-  position:relative;
-  right:-8px;
+  /* position:relative;
+  right:-8px; */
   /* padding:0 12px; */
 }
 .member_info .m_icon div {
